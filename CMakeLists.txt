@@ -79,7 +79,7 @@ option(WITH_GTEST "Build gtest_zlib" ON)
 option(WITH_FUZZERS "Build test/fuzz" OFF)
 option(WITH_BENCHMARKS "Build test/benchmarks" OFF)
 option(WITH_BENCHMARK_APPS "Build application benchmarks" OFF)
-option(WITH_OPTIM "Build with optimisation" ON)
+option(WITH_OPTIM "Build with optimisation" OFF)
 option(WITH_REDUCED_MEM "Reduced memory usage for special cases (reduces performance)" OFF)
 option(WITH_NEW_STRATEGIES "Use new strategies" ON)
 option(WITH_NATIVE_INSTRUCTIONS
